@@ -1,0 +1,18 @@
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.tab_label {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(110, 109, 109)
+}
+
+.tab_label_active {
+    background: rgb(222 104 104);
+    color: #fff;
+}
